@@ -7,7 +7,7 @@ import Spinner from './spinner';
 interface UsersState {
   users: IEntity.User[];
   isLoading: boolean;
-  userId: string;
+  userId: string; 
   isEditModalVisible: boolean;
   editingUser: IEntity.User | null;
 }
